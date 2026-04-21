@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery - Omukama Marvis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Global Styling */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background: #0b3d91;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        background: #333;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        flex: 1;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        background: #0b3d91;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    footer {
+        background: #0b3d91;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Gallery */
+    figure {
+        margin: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Form */
+    form {
+        max-width: 500px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>Gallery</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <figure>
+            <img src="project1.jpg" alt="Web project interface">
+            <figcaption>Web development project</figcaption>
+        </figure>
+
+        <figure>
+            <img src="project2.jpg" alt="Coding workspace setup">
+            <figcaption>Development workspace</figcaption>
+        </figure>
+
+        <figure>
+            <img src="project3.jpg" alt="Tech innovation presentation">
+            <figcaption>Innovation presentation</figcaption>
+        </figure>
+
+        <video controls>
+            <source src="Why Do Computers Use 1s and 0s Binary and Transistors Explained..mp4" type="video/mp4">
+        </video>
+
+    </main>
+
+    <footer>© 2026</footer>
+
+</body>
+
+</html>
